@@ -4,10 +4,10 @@
 
 
 bool checkPrime(uint64_t value) {
-	if (value > 1) {
-		uint64_t b, a = 0;
-		for (uint64_t i = 1; i <= value; i++) {
-			b = value;
+if (value > 1) {
+        uint64_t b, a = 0;
+        for (uint64_t i = 1; i <= value; i++) {
+                b = value;
 			b %= i;
 			if (b == 0)
 				a++;
