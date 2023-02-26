@@ -34,9 +34,9 @@ uint64_t nPrime(uint64_t n) {
 			if (a == 2 && number < n) {
 				prime++;
 				number++;
-			} else if (a == 2 && number == n)
+			} else if (a == 2 && number == n) {
 				return prime;
-			else
+			} else
 				prime++;
 		}
 	}
@@ -72,12 +72,14 @@ uint64_t sumPrime(uint64_t hbound) {
 				b3 %= i;
 				if (b3 == 0)
 					a3++;
-			} if (a3 == 2) {
+			} 
+			if (a3 == 2) {
 				sum += s_prime;
 				num++;
 				s_prime++;
-			} else
+			} else {
 				s_prime++;
+			}
 			a3 = 0;
 		}
 		return sum;
