@@ -17,6 +17,7 @@ bool checkPrime(uint64_t value) {
 		else
 			return false;
 	}
+	return 0;
 }
 
 uint64_t nPrime(uint64_t n) {
@@ -39,6 +40,7 @@ uint64_t nPrime(uint64_t n) {
 				prime++;
 		}
 	}
+	return 0;
 }
 
 uint64_t nextPrime(uint64_t value) {
@@ -58,6 +60,7 @@ uint64_t nextPrime(uint64_t value) {
 				a2 = 0;
 		}
 	}
+	return 0;
 }
 
 uint64_t sumPrime(uint64_t hbound) {
@@ -79,4 +82,5 @@ uint64_t sumPrime(uint64_t hbound) {
 		}
 		return sum;
 	}
+	return 0;
 }
