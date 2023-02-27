@@ -37,8 +37,7 @@ uint64_t nPrime(uint64_t n) {
                 number++;
             } else if (a == 2 && number == n) {
                 return prime;
-            }
-          else {
+            } else {
             prime++;
           }
         }
