@@ -37,8 +37,9 @@ prime++;
 number++;
 } else if (a == 2 && number == n) {
 return prime;
-} else
+} else {
 prime++;
+}
 }
 }
 return 0;
@@ -73,7 +74,7 @@ b3 = s_prime;
 b3 %= i;
 if (b3 == 0)
 a3++;
-} 
+}
 if (a3 == 2) {
 sum += s_prime;
 num++;
